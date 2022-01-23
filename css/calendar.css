@@ -1,0 +1,49 @@
+.calendar-button {
+  color: white;
+  cursor: pointer;
+  border: 0.2px solid rgba(255, 255, 255, 0.3);
+  padding: 5px;
+}
+#calendar {
+  width: 308px;
+  margin: 0 auto;
+  font-size: 10px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.calendar-title {
+  padding-top: 5px;
+  margin-bottom: 20px;
+}
+.calendar-weekdays {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0;
+}
+
+.calendar-weekdays li {
+  width: 44px;
+  height: 25px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.calendar-days {
+  display: flex;
+  flex-wrap: wrap;
+  width: 308px;
+  padding: 0;
+  margin: 0;
+}
+
+.calendar-days li {
+  width: 44px;
+  height: 25px;
+  line-height: 25px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.today {
+  background: #eb6262;
+}

@@ -8,7 +8,27 @@
     <title>Momentum</title>
   </head>
   <body>
+    <header id="bookmark">
+      <ul>
+        <li>
+          <a href="https://www.google.com/">
+            <img src="./img/bookmark/google_icon.png" alt="구글 바로가기" />
+          </a>
+        </li>
+        <li>
+          <a href="https://www.youtube.com/">
+            <img src="./img/bookmark/youtube_icon.png" alt="유튜브 바로가기" style="width: 35px"/>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.naver.com/">
+            <img src="./img/bookmark/naver_icon.png" alt="네이버 바로가기" />
+          </a>
+        </li>
+      </ul>
+    </header>
     <div id="center">
+      <div id="date"></div>
       <h2 id="clock">00:00:00</h2>
       <form id="login-form" class="hidden">
         <input
@@ -27,18 +47,25 @@
         <div></div>
         <div></div>
       </div>
+      <div id="calendar" class="hidden">
+        <h2 class="calendar-title"></h2>
+        <ul class="calendar-weekdays"></ul>
+        <ul class="calendar-days"></ul>
+      </div>
+      <button class="calendar-button">Show Calendar</button>
     </div>
     
     <div id="weather">
       <span></span>
       <span></span>
     </div>
-
+    
     <script src="js/greetings.js"></script>
     <script src="js/clock.js"></script>
     <script src="js/quotes.js"></script>
     <script src="js/background.js"></script>
     <script src="js/todo.js"></script>
+    <script src="js/calendar.js"></script>
     <script type="module" src="js/weather.js"></script>
   </body>
 </html>

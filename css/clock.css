@@ -1,4 +1,9 @@
+#date {
+  margin: 0;
+  letter-spacing: 10px;
+}
 #clock {
   font-size: 7em;
-  margin: 10px;
+  margin: 0;
+  margin-bottom: 10px;
 }

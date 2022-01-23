@@ -1,5 +1,9 @@
-const images = ["0.jpg", "1.jpg", "2.jpg", "3.jpg", "4.jpg"];
+const images = [];
 
+for (let i = 0; i < 10; i++) {
+  images.push(`${i}.jpg`);
+}
+console.log(images);
 const chosenImage = images[Math.floor(Math.random() * images.length)];
 
 // const bgImage = document.createElement("img");
@@ -7,4 +11,4 @@ const chosenImage = images[Math.floor(Math.random() * images.length)];
 
 // document.body.appendChild(bgImage);
 
-document.body.style.backgroundImage = `url(img/${chosenImage})`;
+document.body.style.backgroundImage = `url(img/background/${chosenImage})`;
