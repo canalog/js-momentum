@@ -1,0 +1,13 @@
+#todo-list {
+  margin: 20px 0;
+}
+
+.todo-item {
+  margin: 5px 0;
+}
+
+button {
+  text-shadow: none;
+  background: none;
+  border: none;
+}
