@@ -67,7 +67,6 @@ function showCalendar() {
 
     calendarVisible = true;
   } else {
-    console.log("HIDDE");
     calendarVisible = false;
     calendar.classList.add("hidden");
     calendarButton.innerText = "Show Calendar";
